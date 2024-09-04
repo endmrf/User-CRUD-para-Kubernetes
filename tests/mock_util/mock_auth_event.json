@@ -1,0 +1,125 @@
+{
+    "type": "REQUEST",
+    "methodArn": "arn:aws:execute-api:us-east-1:074002567963:7rx2xmlq7g/dev/GET/companies/f627e1b5-bbc9-4d30-94ba-667f348c347b/task_categories",
+    "resource": "/companies/{company_id}/task_categories",
+    "path": "/companies/f627e1b5-bbc9-4d30-94ba-667f348c347b/task_categories",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "*/*",
+        "Authorization": "eyJraWQiOiJnNk5uaUVKbjZpclwvZlwvK29hQXVreExNNWxcL050a1dRaUh1MWQwcFlwdTNjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjZjFjZjQ0Zi1hNjFjLTQwNDEtOGNkMC1mMTdlOGQzZTA3ZTkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaW50ZWdyYXRpb25fcmVzb3VyY2VfZW50aXRpZXMiOiJ7XCJmNjI3ZTFiNS1iYmM5LTRkMzAtOTRiYS02NjdmMzQ4YzM0N2JcIjoge1wib3NwXCI6IFtcIm1hcHNfbGF5ZXJzX2VkaXRcIiwgXCJtYXBzX2NvbmZpZ3VyYXRpb25zX2VkaXRcIiwgXCJtYXBzX2VsZW1lbnRzX2VkaXRcIiwgXCJtYXBzX2V4aGliaXRpb25zX21vZGVzX2VkaXRcIiwgXCJtYXBzX21vZGVsc19wYW5lbHNfZWRpdFwiLCBcIm1hcHNfc2VhcmNoX2FuZF96b29tX2VkaXRcIiwgXCJtYXBzX3Byb2plY3RzX2VkaXRcIl19LCBcIjNlYWFiNmUxLWVjYTItNDg4ZC1iOThjLWJjYmQ3NGE1YWJkOFwiOiB7fSwgXCJiMDA3NDk3Mi0xYWJiLTRjYzctOTkwNS03NjQ3NDZlMTQzNGJcIjogW119IiwiY3VzdG9tOmdyYW50X2VudGl0aWVzIjoie30iLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9vcVlOSnRQUmQiLCJjdXN0b206ZW1wcmVzYSI6IjNlYWFiNmUxLWVjYTItNDg4ZC1iOThjLWJjYmQ3NGE1YWJkOCIsInBob25lX251bWJlcl92ZXJpZmllZCI6dHJ1ZSwiY29nbml0bzp1c2VybmFtZSI6ImNmMWNmNDRmLWE2MWMtNDA0MS04Y2QwLWYxN2U4ZDNlMDdlOSIsImN1c3RvbTpwZXJtaXNzaW9uIjoie1wiZjYyN2UxYjUtYmJjOS00ZDMwLTk0YmEtNjY3ZjM0OGMzNDdiXCI6IFwiYjgyNDkyM2UtOWNhYS00YmIyLTk0YzUtNTFiZGY5MTQwMTA4XCIsIFwiM2VhYWI2ZTEtZWNhMi00ODhkLWI5OGMtYmNiZDc0YTVhYmQ4XCI6IFwiMzgxNTUxZDYtOTM3Ni00OTlkLWIzYWUtNjJiNmY2OTc0YTJkXCIsIFwiYjAwNzQ5NzItMWFiYi00Y2M3LTk5MDUtNzY0NzQ2ZTE0MzRiXCI6IFwiODVjMjI0MjQtMWE1Mi00N2QyLWEwZDQtNTUxN2M5NDM2MGJmXCJ9IiwiY3VzdG9tOmFjY2VwdGVkX3Rlcm1zIjoiMSIsImN1c3RvbTp0ZW5hbmNpZXMiOiJbXCJmNjI3ZTFiNS1iYmM5LTRkMzAtOTRiYS02NjdmMzQ4YzM0N2JcIiwgXCJiMDA3NDk3Mi0xYWJiLTRjYzctOTkwNS03NjQ3NDZlMTQzNGJcIiwgXCIzZWFhYjZlMS1lY2EyLTQ4OGQtYjk4Yy1iY2JkNzRhNWFiZDhcIl0iLCJhdWQiOiI0cHQ1czQwN2FvN3RtZzJvZXI4dTFyZzZiIiwiZXZlbnRfaWQiOiJlNzY4ODU1OC1iMjNjLTRhMzktYjNiNS1lZjQ2NjAyMGQ1NTUiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYzMjUyMzIxMSwiY3VzdG9tOmltYWdlbV9wYXRoIjoiZjYyN2UxYjUtYmJjOS00ZDMwLTk0YmEtNjY3ZjM0OGMzNDdiXC91c3Vhcmlvc1wvY2YxY2Y0NGYtYTYxYy00MDQxLThjZDAtZjE3ZThkM2UwN2U5LnBuZyIsIm5hbWUiOiJKb8OjbyBMdWl6IiwicGhvbmVfbnVtYmVyIjoiKzU1ODg5OTkyODA2NTgiLCJjdXN0b206YXJlYXNfZGVfYXR1YWNhbyI6IntcImY2MjdlMWI1LWJiYzktNGQzMC05NGJhLTY2N2YzNDhjMzQ3YlwiOiBbXCJPRU1cIiwgXCJDT1JFXCIsIFwiREVWSUNFU1wiLCBcIkFVRElUXCIsIFwiQUNDRVBUQU5DRVwiLCBcIkFDQ0VTU1wiLCBcIlNVQlNDUklCRVJcIl0sIFwiM2VhYWI2ZTEtZWNhMi00ODhkLWI5OGMtYmNiZDc0YTVhYmQ4XCI6IFtcIk9FTVwiLCBcIkNPUkVcIiwgXCJERVZJQ0VTXCIsIFwiQVVESVRcIiwgXCJBQ0NFUFRBTkNFXCIsIFwiQUNDRVNTXCIsIFwiU1VCU0NSSUJFUlwiXSwgXCJiMDA3NDk3Mi0xYWJiLTRjYzctOTkwNS03NjQ3NDZlMTQzNGJcIjogW1wiREVWSUNFU1wiLCBcIkFDQ0VQVEFOQ0VcIiwgXCJPRU1cIl19IiwiZXhwIjoxNjMyNTI2ODE0LCJpYXQiOjE2MzI1MjMyMTQsImZhbWlseV9uYW1lIjoiRmVybmFuZGVzcyIsImVtYWlsIjoiam9hb2x1aXouaGlsYXJpb0BmaXNpY2EudWZjLmJyIn0.Ku5ZGJBQXL6BWAFqyKqsWCRixiu_PpPhq2HnH_TLQ_AsIW7apGuE5J0EK172gQuQ4yfP12ZFi2hnz5x9CW74Z7-uWPz3wqyl29zzq2x2JqAYsfK59Gs-FbIX4e1NUG6EBCmqoPm-dzi1bhCGKky6XSQUdY3o_PCEgILkZ4FkYYK-oK5NCmUFA2fvNRyQVCeDRfqbcT_SeuYf0P3VIeePumrumCEFrhfEZS_Ev7Kw4fdT8cs4k7m3tgKLB0n6zIlRUpKdAht-NN00wX4mG2Pi5UyzgOJjGMDcCzm3np0SpaechdBxn-o6qqPseYJf2oOmxBAkpeYD-9BfePqlC9AkaQ",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-Country": "BR",
+        "Host": "7rx2xmlq7g.execute-api.us-east-1.amazonaws.com",
+        "User-Agent": "insomnia/2021.4.1",
+        "Via": "2.0 12b32afe26a06d2e509866e4790bd9b9.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "FBWpOIUyGAUZmZwezGLPKb-huwGrP4gSxLPAqCa5WO4CloTAI_oFZA==",
+        "X-Amzn-Trace-Id": "Root=1-614e5559-6755832d5c840c30700f587b",
+        "X-Forwarded-For": "177.42.153.46, 52.46.43.154",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "Authorization": [
+            "eyJraWQiOiJnNk5uaUVKbjZpclwvZlwvK29hQXVreExNNWxcL050a1dRaUh1MWQwcFlwdTNjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjZjFjZjQ0Zi1hNjFjLTQwNDEtOGNkMC1mMTdlOGQzZTA3ZTkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaW50ZWdyYXRpb25fcmVzb3VyY2VfZW50aXRpZXMiOiJ7XCJmNjI3ZTFiNS1iYmM5LTRkMzAtOTRiYS02NjdmMzQ4YzM0N2JcIjoge1wib3NwXCI6IFtcIm1hcHNfbGF5ZXJzX2VkaXRcIiwgXCJtYXBzX2NvbmZpZ3VyYXRpb25zX2VkaXRcIiwgXCJtYXBzX2VsZW1lbnRzX2VkaXRcIiwgXCJtYXBzX2V4aGliaXRpb25zX21vZGVzX2VkaXRcIiwgXCJtYXBzX21vZGVsc19wYW5lbHNfZWRpdFwiLCBcIm1hcHNfc2VhcmNoX2FuZF96b29tX2VkaXRcIiwgXCJtYXBzX3Byb2plY3RzX2VkaXRcIl19LCBcIjNlYWFiNmUxLWVjYTItNDg4ZC1iOThjLWJjYmQ3NGE1YWJkOFwiOiB7fSwgXCJiMDA3NDk3Mi0xYWJiLTRjYzctOTkwNS03NjQ3NDZlMTQzNGJcIjogW119IiwiY3VzdG9tOmdyYW50X2VudGl0aWVzIjoie30iLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9vcVlOSnRQUmQiLCJjdXN0b206ZW1wcmVzYSI6IjNlYWFiNmUxLWVjYTItNDg4ZC1iOThjLWJjYmQ3NGE1YWJkOCIsInBob25lX251bWJlcl92ZXJpZmllZCI6dHJ1ZSwiY29nbml0bzp1c2VybmFtZSI6ImNmMWNmNDRmLWE2MWMtNDA0MS04Y2QwLWYxN2U4ZDNlMDdlOSIsImN1c3RvbTpwZXJtaXNzaW9uIjoie1wiZjYyN2UxYjUtYmJjOS00ZDMwLTk0YmEtNjY3ZjM0OGMzNDdiXCI6IFwiYjgyNDkyM2UtOWNhYS00YmIyLTk0YzUtNTFiZGY5MTQwMTA4XCIsIFwiM2VhYWI2ZTEtZWNhMi00ODhkLWI5OGMtYmNiZDc0YTVhYmQ4XCI6IFwiMzgxNTUxZDYtOTM3Ni00OTlkLWIzYWUtNjJiNmY2OTc0YTJkXCIsIFwiYjAwNzQ5NzItMWFiYi00Y2M3LTk5MDUtNzY0NzQ2ZTE0MzRiXCI6IFwiODVjMjI0MjQtMWE1Mi00N2QyLWEwZDQtNTUxN2M5NDM2MGJmXCJ9IiwiY3VzdG9tOmFjY2VwdGVkX3Rlcm1zIjoiMSIsImN1c3RvbTp0ZW5hbmNpZXMiOiJbXCJmNjI3ZTFiNS1iYmM5LTRkMzAtOTRiYS02NjdmMzQ4YzM0N2JcIiwgXCJiMDA3NDk3Mi0xYWJiLTRjYzctOTkwNS03NjQ3NDZlMTQzNGJcIiwgXCIzZWFhYjZlMS1lY2EyLTQ4OGQtYjk4Yy1iY2JkNzRhNWFiZDhcIl0iLCJhdWQiOiI0cHQ1czQwN2FvN3RtZzJvZXI4dTFyZzZiIiwiZXZlbnRfaWQiOiJlNzY4ODU1OC1iMjNjLTRhMzktYjNiNS1lZjQ2NjAyMGQ1NTUiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYzMjUyMzIxMSwiY3VzdG9tOmltYWdlbV9wYXRoIjoiZjYyN2UxYjUtYmJjOS00ZDMwLTk0YmEtNjY3ZjM0OGMzNDdiXC91c3Vhcmlvc1wvY2YxY2Y0NGYtYTYxYy00MDQxLThjZDAtZjE3ZThkM2UwN2U5LnBuZyIsIm5hbWUiOiJKb8OjbyBMdWl6IiwicGhvbmVfbnVtYmVyIjoiKzU1ODg5OTkyODA2NTgiLCJjdXN0b206YXJlYXNfZGVfYXR1YWNhbyI6IntcImY2MjdlMWI1LWJiYzktNGQzMC05NGJhLTY2N2YzNDhjMzQ3YlwiOiBbXCJPRU1cIiwgXCJDT1JFXCIsIFwiREVWSUNFU1wiLCBcIkFVRElUXCIsIFwiQUNDRVBUQU5DRVwiLCBcIkFDQ0VTU1wiLCBcIlNVQlNDUklCRVJcIl0sIFwiM2VhYWI2ZTEtZWNhMi00ODhkLWI5OGMtYmNiZDc0YTVhYmQ4XCI6IFtcIk9FTVwiLCBcIkNPUkVcIiwgXCJERVZJQ0VTXCIsIFwiQVVESVRcIiwgXCJBQ0NFUFRBTkNFXCIsIFwiQUNDRVNTXCIsIFwiU1VCU0NSSUJFUlwiXSwgXCJiMDA3NDk3Mi0xYWJiLTRjYzctOTkwNS03NjQ3NDZlMTQzNGJcIjogW1wiREVWSUNFU1wiLCBcIkFDQ0VQVEFOQ0VcIiwgXCJPRU1cIl19IiwiZXhwIjoxNjMyNTI2ODE0LCJpYXQiOjE2MzI1MjMyMTQsImZhbWlseV9uYW1lIjoiRmVybmFuZGVzcyIsImVtYWlsIjoiam9hb2x1aXouaGlsYXJpb0BmaXNpY2EudWZjLmJyIn0.Ku5ZGJBQXL6BWAFqyKqsWCRixiu_PpPhq2HnH_TLQ_AsIW7apGuE5J0EK172gQuQ4yfP12ZFi2hnz5x9CW74Z7-uWPz3wqyl29zzq2x2JqAYsfK59Gs-FbIX4e1NUG6EBCmqoPm-dzi1bhCGKky6XSQUdY3o_PCEgILkZ4FkYYK-oK5NCmUFA2fvNRyQVCeDRfqbcT_SeuYf0P3VIeePumrumCEFrhfEZS_Ev7Kw4fdT8cs4k7m3tgKLB0n6zIlRUpKdAht-NN00wX4mG2Pi5UyzgOJjGMDcCzm3np0SpaechdBxn-o6qqPseYJf2oOmxBAkpeYD-9BfePqlC9AkaQ"
+        ],
+        "CloudFront-Forwarded-Proto": [
+            "https"
+        ],
+        "CloudFront-Is-Desktop-Viewer": [
+            "true"
+        ],
+        "CloudFront-Is-Mobile-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-SmartTV-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-Tablet-Viewer": [
+            "false"
+        ],
+        "CloudFront-Viewer-Country": [
+            "BR"
+        ],
+        "Host": [
+            "7rx2xmlq7g.execute-api.us-east-1.amazonaws.com"
+        ],
+        "User-Agent": [
+            "insomnia/2021.4.1"
+        ],
+        "Via": [
+            "2.0 12b32afe36a06d2e509866e4790bd9b9.cloudfront.net (CloudFront)"
+        ],
+        "X-Amz-Cf-Id": [
+            "FBWpOIUyGAUZmZwezGLPKb-huwGrP4gSxLPAqCa5WO4CloTAI_oFZA=="
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-614e5559-6755832d5c840c30700f587b"
+        ],
+        "X-Forwarded-For": [
+            "177.42.153.46, 52.46.43.154"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": {
+        "limit": "10",
+        "project": "6d94e588-2b74-4e2a-89dd-8efcea6665c7",
+        "column_set": "list_screen"
+    },
+    "multiValueQueryStringParameters": {
+        "limit": [
+            "10"
+        ],
+        "project": [
+            "6d94e588-2b74-4e2a-89dd-8efcea6665c7"
+        ],
+        "column_set": [
+            "list_screen"
+        ]
+    },
+    "pathParameters": {
+        "company_id": "f627e1b5-bbc9-4d30-94ba-667f348c347b"
+    },
+    "stageVariables": {},
+    "requestContext": {
+        "resourceId": "zbe30y",
+        "resourcePath": "/companies/{company_id}/task_categories",
+        "httpMethod": "GET",
+        "extendedRequestId": "GMJF_FOEIAMF5WQ=",
+        "requestTime": "24/Sep/2021:22:46:49 +0000",
+        "path": "/dev/companies/f627e1b5-bbc9-4d30-94ba-667f348c347b/task_categories",
+        "accountId": "074002567963",
+        "protocol": "HTTP/1.1",
+        "stage": "dev",
+        "domainPrefix": "7rx2xmlq7g",
+        "requestTimeEpoch": 1632523609357,
+        "requestId": "eec9fd50-a7fc-498d-b20d-91194a217865",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "177.42.153.46",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "insomnia/2021.4.1",
+            "user": null
+        },
+        "domainName": "7rx2xmlq7g.execute-api.us-east-1.amazonaws.com",
+        "apiId": "7rx2xmlq7g"
+    }
+}

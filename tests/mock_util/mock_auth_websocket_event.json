@@ -1,0 +1,103 @@
+{
+    "type": "REQUEST",
+    "methodArn": "arn:aws:execute-api:us-east-1:875731917790:0gge0gc7p6/dev/$connect",
+    "headers": {
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "pt-BR,pt;q=0.9,es;q=0.8,en-US;q=0.7,en;q=0.6",
+        "Cache-Control": "no-cache",
+        "Connection": "upgrade",
+        "content-length": "0",
+        "Host": "0gge0gc7p6.execute-api.us-east-1.amazonaws.com",
+        "Origin": "https://d3dmcwxg0a90eh.cloudfront.net",
+        "Pragma": "no-cache",
+        "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+        "Sec-WebSocket-Key": "lKAR723UyuHW4D81XUKnLw==",
+        "Sec-WebSocket-Version": "13",
+        "Upgrade": "websocket",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+        "X-Amzn-Trace-Id": "Root=1-62227368-409a3a247194c6f079897ff0",
+        "X-Forwarded-For": "177.206.169.152",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept-Encoding": [
+            "gzip, deflate, br"
+        ],
+        "Accept-Language": [
+            "pt-BR,pt;q=0.9,es;q=0.8,en-US;q=0.7,en;q=0.6"
+        ],
+        "Cache-Control": [
+            "no-cache"
+        ],
+        "Connection": [
+            "upgrade"
+        ],
+        "content-length": [
+            "0"
+        ],
+        "Host": [
+            "0gge0gc7p6.execute-api.us-east-1.amazonaws.com"
+        ],
+        "Origin": [
+            "https://d3dmcwxg0a90eh.cloudfront.net"
+        ],
+        "Pragma": [
+            "no-cache"
+        ],
+        "Sec-WebSocket-Extensions": [
+            "permessage-deflate; client_max_window_bits"
+        ],
+        "Sec-WebSocket-Key": [
+            "lKAR723UyuHW4D81XUKnLw=="
+        ],
+        "Sec-WebSocket-Version": [
+            "13"
+        ],
+        "Upgrade": [
+            "websocket"
+        ],
+        "User-Agent": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-62227368-409a3a247194c6f079897ff0"
+        ],
+        "X-Forwarded-For": [
+            "177.206.169.152"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": {
+        "Authorization": "eyJraWQiOiJZcVJSZ1wvdUcwZ3dHQjFyQjB0SVRwb0UxQUZIQzg3d3ptd2RNTTAwV2UxZz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjZTVmNGVhMS1iYzRkLTQ1NjctOWVmZi05OTczMTZlYjgxNzUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaW50ZWdyYXRpb25fcmVzb3VyY2VfZW50aXRpZXMiOiJ7XCIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTZcIjoge1wib3NwXCI6IFtcIm1hcHNfbGF5ZXJzX2VkaXRcIiwgXCJtYXBzX2NvbmZpZ3VyYXRpb25zX2VkaXRcIiwgXCJtYXBzX2VsZW1lbnRzX2VkaXRcIiwgXCJtYXBzX2V4aGliaXRpb25zX21vZGVzX2VkaXRcIiwgXCJtYXBzX21vZGVsc19wYW5lbHNfZWRpdFwiLCBcIm1hcHNfc2VhcmNoX2FuZF96b29tX2VkaXRcIiwgXCJtYXBzX3Byb2plY3RzX2VkaXRcIl19fSIsImN1c3RvbTpncmFudF9lbnRpdGllcyI6Int9IiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfTnpIS0Vsa2dUIiwiY3VzdG9tOmVtcHJlc2EiOiIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTYiLCJjb2duaXRvOnVzZXJuYW1lIjoiY2U1ZjRlYTEtYmM0ZC00NTY3LTllZmYtOTk3MzE2ZWI4MTc1IiwiY3VzdG9tOnBlcm1pc3Npb24iOiJ7XCIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTZcIjogXCI5MzQ0MGRiMS00ZWJmLTRmNDctOTQ3NS0wNWQxMjcyZDZjMjdcIn0iLCJjdXN0b206YWNjZXB0ZWRfdGVybXMiOiIxIiwib3JpZ2luX2p0aSI6ImY4YTU0MjNkLWQ0MjQtNGY0My05OTUwLWFjNDhkYTY4MjMyYSIsImN1c3RvbTp0ZW5hbmNpZXMiOiJbXCIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTZcIl0iLCJhdWQiOiIyYzlkOGNibmZobWkxajhicjNuY25ycWpsOSIsImV2ZW50X2lkIjoiZTYwZTkwOGYtNWUzYi00ZmQxLTgxZmEtZmI5ZDc5ZDBiNTkyIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NDY0MTIzMjAsIm5hbWUiOiJKb8OjbyBMdWl6IiwicGhvbmVfbnVtYmVyIjoiKzU1ODg5OTkyODA2NTgiLCJjdXN0b206YXJlYXNfZGVfYXR1YWNhbyI6IntcIjFjMGVlYzM2LWNlYTctNGZkYi04Y2UyLTZhM2Y1ZmRkNzYxNlwiOiBbXCJPU1BcIiwgXCJERVZJQ0VTXCIsIFwiT0VNXCIsIFwiQ09SRVwiLCBcIkFDQ0VQVEFOQ0VcIiwgXCJBVURJVFwiXX0iLCJleHAiOjE2NDY0MjY4NzYsImlhdCI6MTY0NjQyMzI3NiwiZmFtaWx5X25hbWUiOiJBZG1pbiIsImp0aSI6IjFkNjI5NmMxLTY1MWItNDk5Yy04M2E4LTYxZmMyZjM5MWVmMCIsImVtYWlsIjoiam9hb2x1aXouaGlsYXJpb0BmaXNpY2EudWZjLmJyIn0.iMzVFB6pch2Qqlhh2s_T8qzVSX8MWb3I7vnpvA64BaGBfdlWme1-BWtV7pqEZzoaJef99CZm_N5PxZfQMpdIp-W9HBWIcbcuGV6R_VpGKik88yFIiyfUI7-YikMf7EYvEcQyWRVN2DOkHkbvNwmTFp6j5T5Gxf950FCxwmACw8iq4xEB7oQ_6LMo8NSfe5Qhv5lZK4kZdVTZxV44vBSN8Xz-aBb0xgIDaD8dqst7_waUYTXMSWpYTVDEZm71RBs0b9OKBuvoziJ2R8WZorQaY1F7lecf2_9c_r6JbnrF50OrLNLNeClFzIIAHkgjWV7eZkA96cR9AMwoosWi21r07A"
+    },
+    "multiValueQueryStringParameters": {
+        "Authorization": [
+            "eyJraWQiOiJZcVJSZ1wvdUcwZ3dHQjFyQjB0SVRwb0UxQUZIQzg3d3ptd2RNTTAwV2UxZz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjZTVmNGVhMS1iYzRkLTQ1NjctOWVmZi05OTczMTZlYjgxNzUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaW50ZWdyYXRpb25fcmVzb3VyY2VfZW50aXRpZXMiOiJ7XCIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTZcIjoge1wib3NwXCI6IFtcIm1hcHNfbGF5ZXJzX2VkaXRcIiwgXCJtYXBzX2NvbmZpZ3VyYXRpb25zX2VkaXRcIiwgXCJtYXBzX2VsZW1lbnRzX2VkaXRcIiwgXCJtYXBzX2V4aGliaXRpb25zX21vZGVzX2VkaXRcIiwgXCJtYXBzX21vZGVsc19wYW5lbHNfZWRpdFwiLCBcIm1hcHNfc2VhcmNoX2FuZF96b29tX2VkaXRcIiwgXCJtYXBzX3Byb2plY3RzX2VkaXRcIl19fSIsImN1c3RvbTpncmFudF9lbnRpdGllcyI6Int9IiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfTnpIS0Vsa2dUIiwiY3VzdG9tOmVtcHJlc2EiOiIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTYiLCJjb2duaXRvOnVzZXJuYW1lIjoiY2U1ZjRlYTEtYmM0ZC00NTY3LTllZmYtOTk3MzE2ZWI4MTc1IiwiY3VzdG9tOnBlcm1pc3Npb24iOiJ7XCIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTZcIjogXCI5MzQ0MGRiMS00ZWJmLTRmNDctOTQ3NS0wNWQxMjcyZDZjMjdcIn0iLCJjdXN0b206YWNjZXB0ZWRfdGVybXMiOiIxIiwib3JpZ2luX2p0aSI6ImY4YTU0MjNkLWQ0MjQtNGY0My05OTUwLWFjNDhkYTY4MjMyYSIsImN1c3RvbTp0ZW5hbmNpZXMiOiJbXCIxYzBlZWMzNi1jZWE3LTRmZGItOGNlMi02YTNmNWZkZDc2MTZcIl0iLCJhdWQiOiIyYzlkOGNibmZobWkxajhicjNuY25ycWpsOSIsImV2ZW50X2lkIjoiZTYwZTkwOGYtNWUzYi00ZmQxLTgxZmEtZmI5ZDc5ZDBiNTkyIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NDY0MTIzMjAsIm5hbWUiOiJKb8OjbyBMdWl6IiwicGhvbmVfbnVtYmVyIjoiKzU1ODg5OTkyODA2NTgiLCJjdXN0b206YXJlYXNfZGVfYXR1YWNhbyI6IntcIjFjMGVlYzM2LWNlYTctNGZkYi04Y2UyLTZhM2Y1ZmRkNzYxNlwiOiBbXCJPU1BcIiwgXCJERVZJQ0VTXCIsIFwiT0VNXCIsIFwiQ09SRVwiLCBcIkFDQ0VQVEFOQ0VcIiwgXCJBVURJVFwiXX0iLCJleHAiOjE2NDY0MjY4NzYsImlhdCI6MTY0NjQyMzI3NiwiZmFtaWx5X25hbWUiOiJBZG1pbiIsImp0aSI6IjFkNjI5NmMxLTY1MWItNDk5Yy04M2E4LTYxZmMyZjM5MWVmMCIsImVtYWlsIjoiam9hb2x1aXouaGlsYXJpb0BmaXNpY2EudWZjLmJyIn0.iMzVFB6pch2Qqlhh2s_T8qzVSX8MWb3I7vnpvA64BaGBfdlWme1-BWtV7pqEZzoaJef99CZm_N5PxZfQMpdIp-W9HBWIcbcuGV6R_VpGKik88yFIiyfUI7-YikMf7EYvEcQyWRVN2DOkHkbvNwmTFp6j5T5Gxf950FCxwmACw8iq4xEB7oQ_6LMo8NSfe5Qhv5lZK4kZdVTZxV44vBSN8Xz-aBb0xgIDaD8dqst7_waUYTXMSWpYTVDEZm71RBs0b9OKBuvoziJ2R8WZorQaY1F7lecf2_9c_r6JbnrF50OrLNLNeClFzIIAHkgjWV7eZkA96cR9AMwoosWi21r07A"
+        ]
+    },
+    "stageVariables": {},
+    "requestContext": {
+        "routeKey": "$connect",
+        "eventType": "CONNECT",
+        "extendedRequestId": "Oeb4ZFD9IAMFQpg=",
+        "requestTime": "04/Mar/2022:20:15:36 +0000",
+        "messageDirection": "IN",
+        "stage": "dev",
+        "connectedAt": 1646424936737,
+        "requestTimeEpoch": 1646424936739,
+        "identity": {
+            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+            "sourceIp": "177.206.169.152"
+        },
+        "requestId": "Oeb4ZFD9IAMFQpg=",
+        "domainName": "0gge0gc7p6.execute-api.us-east-1.amazonaws.com",
+        "connectionId": "Oeb4ZdpbIAMCE5A=",
+        "apiId": "0gge0gc7p6"
+    }
+}
