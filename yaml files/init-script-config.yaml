@@ -5,7 +5,7 @@ metadata:
 data:
   init.sql: |
     CREATE TABLE IF NOT EXISTS users (
-        id SERIAL PRIMARY KEY,
+        id VARCHAR(36) PRIMARY KEY,
         name TEXT NOT NULL,
         last_name TEXT NOT NULL,
         cpf TEXT UNIQUE NOT NULL,
