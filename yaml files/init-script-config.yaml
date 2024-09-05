@@ -10,5 +10,5 @@ data:
         last_name TEXT NOT NULL,
         cpf TEXT UNIQUE NOT NULL,
         email VARCHAR(100) NOT NULL,
-        created_at NOT NULL
+        created_at timestamp NOT NULL
     );

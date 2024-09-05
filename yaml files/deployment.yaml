@@ -1,20 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: usercrud
+  name: user-crud
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: usercrud
+      app: user-crud
   template:
     metadata:
       labels:
-        app: usercrud
+        app: user-crud
     spec:
       containers:
       - name: my-container
-        image: usercrud:v1.1
-        imagePullPolicy: Never
+        image: endmrf/user-crud:v1.1
         ports:
           - containerPort: 5000
